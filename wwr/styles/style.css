@@ -31,6 +31,7 @@ header {
   background-color:peru;
 }
 nav a{
+  font-size: 2em;
   color: white;
   text-decoration: none;
 }
