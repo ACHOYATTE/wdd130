@@ -1,0 +1,94 @@
+#content{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav{
+  text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4{
+  text-align: center;
+}
+
+.button-box{
+  text-align: center;
+}
+
+main section{
+  text-align: center;
+}
+
+#background {
+  height: 725px;
+  background-color:burlywood;
+}
+
+body {
+  background-color: white; 
+}
+header {
+  background-color:peru;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: black;
+}
+
+.book{
+  background-color:peru;
+}
+.join{
+  background-color:peru;
+}
+
+.book:hover, .join:hover{
+  background-color: white;
+  color: black;
+}
+.msg{
+  background-color: peru;
+}
+footer{
+  color: black;
+} 
+footer a{
+  color: white;
+}
+footer a:hover{
+  color: black;
+}
+
+footer{
+  background-color: peru;
+}
+
+.home-title{
+  color: indigo;
+}
+h4{
+  color: orangered;
+}
+
+.msg h2{
+  color: black;
+}
+.msg p{
+  color: white;
+}
+
+.icon {
+  width: 80px;
+}
+
+footer p {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}    
