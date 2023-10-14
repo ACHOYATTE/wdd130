@@ -25,7 +25,12 @@ main section{
 }
 
 body {
-  background-color: white; 
+  background-color: #fcfbfb;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+ 
 }
 header {
   background-color:peru;
@@ -34,6 +39,7 @@ nav a{
   font-size: 1.5em;
   color: white;
   text-decoration: none;
+  padding: 35px;
 }
 nav a:hover {
   background-color: black;
@@ -41,10 +47,18 @@ nav a:hover {
 
 .book{
   background-color:peru;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .join{
   color: white;
   background-color:peru;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -53,9 +67,13 @@ nav a:hover {
 }
 .msg{
   background-color: peru;
+  background-color: #6f7364;
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer{
   color: black;
+  padding: 25px 50px;
 } 
 footer a{
   color: white;
@@ -66,10 +84,14 @@ footer a:hover{
 
 footer{
   background-color: peru;
+  margin-top: 200px;
 }
 
 .home-title{
   color: indigo;
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4{
   color: orangered;
@@ -80,10 +102,13 @@ h4{
 }
 .msg p{
   color: white;
+  font-size: 1em;
+  padding-bottom: 15px;
 }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 footer p {
@@ -93,4 +118,36 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
-}    
+}  
+
+footer .social img {
+  padding-top: 15px;
+}
+
+h2 {
+  margin: 0;
+}
+
+#logo_link{
+  padding-top: 5px;
+ 
+}
+
+.rivers-card, .camping-card, .rapids-card  {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
+}
+
+#hero-img{
+  width: 1600px;
+}
+
+.logo{
+  width: 10%;
+}
